@@ -1,4 +1,14 @@
 # loopback-component-model-diagram [![NPM version][npm-image]][npm-url]
+# Usage
+In your loopback application:
+```
+var devDataModelDiagram = require('loopback-component-model-diagram');
+
+// Mount the DataModel Diagram Generation api
+// To acess generated diagram - http://host:port/modelDiagram/
+// app - loopbackApplication
+devDataModelDiagram(app);
+```
 > Generate a diagram of your loopback models
 
 It generates a [nomnoml] code and provides a simple page to display it.
